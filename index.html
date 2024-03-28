@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="./src/css/style.css">
 
     <!-- Запуск Tailwind -->
-    <!-- npm run devmod -->
+    <!-- npm run dev-mod -->
+
+    <!-- Перезвавнтаження -->
+    <!-- npm run restart -->
     <title>Simply Chocolate</title>
 </head>
 <body>
     <header class="header">
-        <div class="flex items-center justify-between container header__inner">
+        <div class="flex items-center justify-between    container header__inner">
             <a class="logo" href="#">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="213" height="24" viewBox="0 0 285 32">
                     <title>logo</title>
@@ -26,26 +29,26 @@
                 </svg>
             </a>
             <nav class="navigation">
-                <div class="flex items-center justify-between navigation__item-box">
-                    <ul class="items-center justify-center gap-6 flex menu">
-                        <li class="py-7 menu__item">
+                <div class="flex items-center justify-between    navigation__item-box">
+                    <ul class="items-center justify-center gap-6 flex    menu">
+                        <li class="py-7    menu__item">
                             <a class="menu__link" href="#">Home</a>
                         </li>
-                        <li class="py-7 menu__item">
+                        <li class="py-7    menu__item">
                             <a class="menu__link" href="#">How it`s made?</a>
                         </li>
-                        <li class="py-7 menu__item">
+                        <li class="py-7    menu__item">
                             <a class="menu__link" href="#">Our products</a>
                         </li>
-                        <li class="py-7 menu__item">
+                        <li class="py-7    menu__item">
                             <a class="menu__link" href="#">Top sellers</a>
                         </li>
-                        <li class="py-7 menu__item7">
+                        <li class="py-7    menu__item7">
                             <a class="menu__link" href="#">Chocolate is loved</a>
                         </li>
                     </ul>
-                    <ul class="flex items-center justify-center social-menu">
-                        <li class="w-6 h-6 social-menu__item">
+                    <ul class="flex items-center gap-18px   justify-center social-menu">
+                        <li class="w-6 h-6    social-menu__item">
                             <a class="social-menu__link" href="#">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32">
                                     <title>instagram</title>
@@ -55,7 +58,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="w-6 h-6 social-menu__item">
+                        <li class="w-6 h-6   social-menu__item">
                             <a class="social-menu__link" href="#">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32">
                                     <title>twitter</title>
@@ -66,10 +69,137 @@
                     </ul>
                 </div>
             </nav>
-            <button class="w-8 h-8 bg-transparent hidden burger-menu">
+            <button class="w-8 h-8 bg-transparent hidden    burger-menu">
                 <span class="burger-menu__spun"></span>
             </button>
         </div>
     </header>
+    <main class="main">
+        <section class="bg-castom-black-benefits    benefits">
+            <div class="py-50px text-white    container benefits__content">
+                <ul class="flex justify-center items-start gap-70px    advantages-list">
+                    <li class="flex flex-col items-start justify-start gap-18px    advantages-list__item">
+                        <div class="mb-1 flex items-center justify-center border border-solid border-benefits-svg-border p-17px rounded-full    advantages-list__svg-box">
+                            <svg class="advantages-list__svg" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <title>benefits-one</title>
+                                <path fill="#000" d="M13.511 0.472l8.602 8.613 0.091-0.091c0.18-0.176 0.422-0.276 0.674-0.279s0.496 0.092 0.68 0.264l0.998 0.998c0.349 0.349 0.36 0.88 0.095 1.25l-0.005 0.008-0.163 0.219 7.040 7.040c0.629 0.629 0.629 1.634 0 2.263l-10.777 10.777c-0.629 0.629-1.634 0.629-2.263 0l-5.082-5.082c-0.084 0.106-0.19 0.194-0.311 0.256s-0.253 0.099-0.389 0.106c-0.136 0.008-0.271-0.014-0.398-0.062s-0.242-0.123-0.338-0.22l-2.971-2.971c-0.176-0.18-0.276-0.421-0.279-0.674s0.092-0.496 0.264-0.68l0.007-0.008 0.088-0.087-8.602-8.602c-0.629-0.629-0.629-1.634 0-2.263l10.777-10.777c0.629-0.629 1.634-0.629 2.263 0v0.001zM21.033 10.163l-2.007-2.006c-0.063-0.065-0.139-0.117-0.222-0.152s-0.173-0.053-0.264-0.053c-0.091 0-0.18 0.018-0.264 0.053s-0.159 0.087-0.222 0.152l-4.091 4.091c-0.065 0.064-0.116 0.141-0.151 0.225s-0.053 0.175-0.053 0.266 0.018 0.182 0.053 0.266c0.035 0.084 0.086 0.161 0.151 0.225l1.999 1.999 0.697-0.697-1.789-1.789 3.669-3.68 1.793 1.799 0.701-0.701zM15.232 15.96l-2.005-2.005c-0.063-0.065-0.139-0.117-0.222-0.152s-0.173-0.053-0.264-0.053c-0.091 0-0.18 0.018-0.264 0.053s-0.159 0.087-0.222 0.152l-4.103 4.103c-0.274 0.263-0.274 0.697 0 0.971l2.002 2.002 0.704-0.704-1.794-1.787 3.68-3.669 1.787 1.786 0.699-0.698zM7.797 7.078l4.091 4.091c0.274 0.274 0.709 0.274 0.971-0.011l4.091-4.091c0.065-0.062 0.117-0.136 0.152-0.219s0.054-0.171 0.054-0.261h0.011c0-0.171-0.069-0.354-0.206-0.491l-4.091-4.091c-0.064-0.065-0.141-0.117-0.225-0.152s-0.175-0.053-0.266-0.053c-0.091 0-0.182 0.018-0.266 0.053s-0.161 0.087-0.225 0.152l-4.091 4.103c-0.274 0.263-0.274 0.697 0 0.971zM2.002 12.872l4.091 4.091c0.274 0.274 0.709 0.274 0.971 0l4.091-4.091c0.066-0.063 0.119-0.14 0.154-0.224s0.053-0.176 0.051-0.267h0.011c0-0.183-0.069-0.354-0.206-0.491l-4.091-4.091c-0.063-0.065-0.139-0.117-0.222-0.152s-0.173-0.053-0.264-0.053c-0.091 0-0.18 0.018-0.264 0.053s-0.159 0.087-0.222 0.152l-4.103 4.103c-0.274 0.263-0.274 0.697 0 0.971zM9.926 22.877l2.699 2.701 11.013-14.903-0.749-0.749-12.963 12.951z"></path>
+                                <path fill="#fd9222" d="M13.511 0.472l8.602 8.613 0.091-0.091c0.18-0.176 0.422-0.276 0.674-0.279s0.496 0.092 0.68 0.264l0.998 0.998c0.349 0.349 0.36 0.88 0.095 1.25l-0.005 0.008-0.163 0.219 7.040 7.040c0.629 0.629 0.629 1.634 0 2.263l-10.777 10.777c-0.629 0.629-1.634 0.629-2.263 0l-5.082-5.082c-0.084 0.106-0.19 0.194-0.311 0.256s-0.253 0.099-0.389 0.106c-0.136 0.008-0.271-0.014-0.398-0.062s-0.242-0.123-0.338-0.22l-2.971-2.971c-0.176-0.18-0.276-0.421-0.279-0.674s0.092-0.496 0.264-0.68l0.007-0.008 0.088-0.087-8.602-8.602c-0.629-0.629-0.629-1.634 0-2.263l10.777-10.777c0.629-0.629 1.634-0.629 2.263 0v0.001zM21.033 10.163l-2.007-2.006c-0.063-0.065-0.139-0.117-0.222-0.152s-0.173-0.053-0.264-0.053c-0.091 0-0.18 0.018-0.264 0.053s-0.159 0.087-0.222 0.152l-4.091 4.091c-0.065 0.064-0.116 0.141-0.151 0.225s-0.053 0.175-0.053 0.266 0.018 0.182 0.053 0.266c0.035 0.084 0.086 0.161 0.151 0.225l1.999 1.999 0.697-0.697-1.789-1.789 3.669-3.68 1.793 1.799 0.701-0.701zM15.232 15.96l-2.005-2.005c-0.063-0.065-0.139-0.117-0.222-0.152s-0.173-0.053-0.264-0.053c-0.091 0-0.18 0.018-0.264 0.053s-0.159 0.087-0.222 0.152l-4.103 4.103c-0.274 0.263-0.274 0.697 0 0.971l2.002 2.002 0.704-0.704-1.794-1.787 3.68-3.669 1.787 1.786 0.699-0.698zM7.797 7.078l4.091 4.091c0.274 0.274 0.709 0.274 0.971-0.011l4.091-4.091c0.065-0.062 0.117-0.136 0.152-0.219s0.054-0.171 0.054-0.261h0.011c0-0.171-0.069-0.354-0.206-0.491l-4.091-4.091c-0.064-0.065-0.141-0.117-0.225-0.152s-0.175-0.053-0.266-0.053c-0.091 0-0.182 0.018-0.266 0.053s-0.161 0.087-0.225 0.152l-4.091 4.103c-0.274 0.263-0.274 0.697 0 0.971zM2.002 12.872l4.091 4.091c0.274 0.274 0.709 0.274 0.971 0l4.091-4.091c0.066-0.063 0.119-0.14 0.154-0.224s0.053-0.176 0.051-0.267h0.011c0-0.183-0.069-0.354-0.206-0.491l-4.091-4.091c-0.063-0.065-0.139-0.117-0.222-0.152s-0.173-0.053-0.264-0.053c-0.091 0-0.18 0.018-0.264 0.053s-0.159 0.087-0.222 0.152l-4.103 4.103c-0.274 0.263-0.274 0.697 0 0.971zM9.926 22.877l2.699 2.701 11.013-14.903-0.749-0.749-12.963 12.951z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-list__subtitle">Unsurpassed taste</h3>
+                        <p class="advantages-list__text">
+                            Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.
+                        </p>
+                    </li>
+                    <li class="flex flex-col items-start justify-start gap-18px   advantages-list__item">
+                        <div class="mb-1 flex items-center justify-center border border-solid border-benefits-svg-border p-17px rounded-full    advantages-list__svg-box">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <title>benefits-two</title>
+                                <path fill="#fd9222" d="M16 0.762c-8.381 0-15.238 6.857-15.238 15.238s6.857 15.238 15.238 15.238c8.381 0 15.238-6.857 15.238-15.238s-6.857-15.238-15.238-15.238zM16 28.191c-6.705 0-12.191-5.486-12.191-12.19s5.486-12.191 12.191-12.191c6.705 0 12.19 5.486 12.19 12.191s-5.486 12.19-12.19 12.19z"></path>
+                                <path fill="#fd9222" d="M17.981 14.476h-3.962c-0.762 0-1.371-0.61-1.371-1.371s0.61-1.371 1.371-1.371h5.638c0.914 0 1.524-0.61 1.524-1.524s-0.61-1.524-1.524-1.524h-2.133v-1.371c0-0.914-0.61-1.524-1.524-1.524s-1.524 0.61-1.524 1.524v1.371h-0.457c-2.438 0-4.419 1.981-4.419 4.419s1.981 4.419 4.419 4.419h3.809c0.762 0 1.371 0.61 1.371 1.371s-0.61 1.371-1.371 1.371h-5.638c-0.914 0-1.524 0.61-1.524 1.524s0.61 1.524 1.524 1.524h2.286v1.371c0 0.914 0.61 1.524 1.524 1.524s1.524-0.61 1.524-1.524v-1.371h0.457c2.438 0 4.419-1.981 4.419-4.419s-1.981-4.419-4.419-4.419z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-list__subtitle">Affordable price</h3>
+                        <p class="advantages-list__text">
+                            Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.
+                        </p>
+                    </li>
+                    <li class="flex flex-col items-start justify-start gap-18px    advantages-list__item">
+                        <div class="mb-1 flex items-center justify-center border border-solid border-benefits-svg-border p-17px rounded-full    advantages-list__svg-box">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <title>benefits-three</title>
+                                <path fill="#fd9222" d="M15.452 14.106c-0.783-0.95-1.177-2.116-1.177-3.282 0-4.324 5.181-8.642 10.362-8.642 2.86 0 5.181 2.321 5.181 5.182 0 5.182-4.318 10.364-8.646 10.364-1.166 0-2.332-0.394-3.281-1.177l-12.758 12.761c-0.675 0.675-1.77 0.675-2.445 0s-0.675-1.771 0-2.445l12.764-12.761z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-list__subtitle">Own production</h3>
+                        <p class="advantages-list__text">
+                            We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="product-description">
+            <div class="flex flex-col items-center justify-center text-center gap-7   container product-description__content">
+                <h2 class="product-description__title">
+                    IT ALL ADDS UP TO ONE EXCEPTIONAL 
+                    <span class="product-description__yellow-title">TASTE</span>
+                     SENSATION
+                </h2>
+                <p class="product-description__text">
+                    At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.
+                </p>
+                <div class="flex items-center justify-center    product-description__card-wrapper">
+                    <div class="p-7 pr-9 text-left    product-description-card">
+                        <div class="front">
+                            <img class="front__image" src="./src/image/product-description/image-one.png" alt="milk chocolate">
+                            <p class="front__text">MILK CHOCOLATE</p>
+                        </div>
+                        <div class="back">
+                            <h3 class="back__title">Milk chocolate</h3>
+                            <div class="back__deror-box">
+                                <p class="back__deror-text-one">chocolate</p>
+                                <p class="back__deror-text-two">the benefits</p>
+                            </div>
+                            <p class="back__text">
+                                Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all milk chocolate is sold in the United States and Europe, increasingly large amounts are consumed in China and Latin America.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-7 pr-9 text-left    product-description-card">
+                        <div class="front">
+                            <img class="front__image" src="./src/image/product-description/image-two.png" alt="milk">
+                            <p class="front__text">Milk</p>
+                        </div>
+                        <div class="back">
+                            <h3 class="back__title">Milk</h3>
+                            <div class="back__deror-box">
+                                <p class="back__deror-text-one">milk</p>
+                                <p class="back__deror-text-two">the benefits</p>
+                            </div>
+                            <p class="back__text">
+                                Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system,  and thus reduces the risk of many diseases. Milk contains many nutrients, including protein and lactose.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-7 pr-9 text-left    product-description-card">
+                        <div class="front">
+                            <img class="front__image" src="./src/image/product-description/image-thre.png" alt="nuts">
+                            <p class="front__text">NUTS</p>
+                        </div>
+                        <div class="back">
+                            <h3 class="back__title">Nuts</h3>
+                            <div class="back__deror-box">
+                                <p class="back__deror-text-one">nuts</p>
+                                <p class="back__deror-text-two">the benefits</p>
+                            </div>
+                            <p class="back__text">
+                                Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their own, paired with fruit, or added to dishes like salads, desserts, and grains.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-7 pr-9 text-left    product-description-card">
+                        <div class="flex flex-col items-start justify-center   front">
+                            <img class="front__image" src="./src/image/product-description/image-four.png" alt="semi - sweet chocolate">
+                            <p class="front__text">SEMI - SWEET CHOCOLATE</p>
+                        </div>
+                        <div class="back">
+                            <h3 class="back__title">SEMI - SWEET CHOCOLATE</h3>
+                            <div class="back__deror-box">
+                                <p class="back__deror-text-one">sweet chocolate</p>
+                                <p class="back__deror-text-two">the benefits</p>
+                            </div>
+                            <p class="back__text">
+                                Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow. This delectable flavor of chocolate is very versatile.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

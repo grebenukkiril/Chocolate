@@ -2,11 +2,46 @@
   gap: 137px;
 }
 
-.social-menu {
-  gap: 18px;
-}
 .burger-menu__spun {
   width: 26px;
   height: 2px;
   background-color: #111111;
+}
+
+.benefits {
+  margin-bottom: 128px;
+}
+.advantages-list__item {
+  width: 326px;
+  position: relative;
+}
+.advantages-list__item::before {
+  content: "";
+  height: 124px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+.advantages-list__item:last-child::before {
+  display: none;
+}
+.advantages-list__subtitle {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.advantages-list__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  width: 308px;
 }
