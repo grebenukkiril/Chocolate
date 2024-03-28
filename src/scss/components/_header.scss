@@ -1,0 +1,29 @@
+.header {
+    &__inner {}
+}
+.logo {
+}
+.navigation {
+    &__item-box {
+        gap: 137px;
+    }
+}
+.menu {
+    &__item {}
+    &__link {}
+}
+.social-menu {
+    gap: 18px;
+    &__item {}
+    &__link {}
+}
+.burger-menu {
+    &__spun {
+        width: 26px;
+        height: 2px;
+        background-color: $blackColor;
+    }
+}
+@media (max-width: 1030px){
+    
+}

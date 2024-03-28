@@ -1,0 +1,12 @@
+.navigation__item-box {
+  gap: 137px;
+}
+
+.social-menu {
+  gap: 18px;
+}
+.burger-menu__spun {
+  width: 26px;
+  height: 2px;
+  background-color: #111111;
+}
