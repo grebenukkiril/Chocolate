@@ -2,11 +2,179 @@
   gap: 137px;
 }
 
-.social-menu {
-  gap: 18px;
-}
 .burger-menu__spun {
   width: 26px;
   height: 2px;
   background-color: #111111;
+}
+
+.benefits {
+  margin-bottom: 128px;
+}
+.advantages-list__item {
+  width: 326px;
+  position: relative;
+}
+.advantages-list__item::before {
+  content: "";
+  height: 124px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+.advantages-list__item:last-child::before {
+  display: none;
+}
+.advantages-list__subtitle {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.advantages-list__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  width: 308px;
+}
+
+.product-description {
+  margin-bottom: 100px;
+}
+.product-description__content {
+  color: #111111;
+}
+.product-description__title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  width: 411px;
+}
+.product-description__yellow-title {
+  color: #FD9222;
+}
+.product-description__text {
+  margin-bottom: 22px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  width: 486px;
+}
+.product-description__card-wrapper {
+  gap: 19px;
+}
+
+.product-description-card {
+  width: 270px;
+  height: 270px;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.product-description-card:first-child .front {
+  background-color: #FD9222;
+}
+.product-description-card:last-child .front, .product-description-card:nth-child(2) .front {
+  background-color: #FFF;
+}
+.product-description-card:last-child .front__text, .product-description-card:nth-child(2) .front__text {
+  color: #111111;
+}
+.product-description-card:nth-child(3) .front {
+  background-color: #1E1823;
+  border: 1px solid #1E1823;
+}
+.product-description-card:hover .front {
+  left: -100%;
+}
+
+.front {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  border: 1px solid #FD9222;
+  transition: left 300ms;
+}
+.front__image {
+  width: 206px;
+  height: 160px;
+}
+.front__text {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
+.back {
+  gap: 8px;
+  width: 270px;
+}
+.back__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+.back__decor-box {
+  gap: 6px;
+}
+.back__decor-text-one {
+  color: #FFF;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  padding: 5px 15px;
+  border-radius: 35px;
+  border: 1px solid #FD9222;
+  background-color: #FD9222;
+}
+.back__decor-text-two {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  padding: 5px 15px;
+  border-radius: 35px;
+  border: 1px solid #FD9222;
+}
+.back__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+* {
+  font-family: Montserrat;
 }

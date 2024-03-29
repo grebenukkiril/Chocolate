@@ -1,2 +1,11 @@
 @import './utils/vars';
+@import './utils/keyframes';
 @import './components/header';
+@import './components/benefits';
+@import './components/product-description';
+body{
+    background-color: #FAFAFA;
+}
+*{
+    font-family: Montserrat;
+}

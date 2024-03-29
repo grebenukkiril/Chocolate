@@ -3,7 +3,16 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     extend: {
-
+      spacing: {
+        '17px': '17px',
+        '18px': '18px',
+        '50px': '50px',
+        '70px': '70px',
+      },
+      colors: {
+        'castom-black-benefits': '#1E1823;',
+        'benefits-svg-border': 'rgba(255, 255, 255, 0.50);',
+      },
     },
     screens: {
       '2xl': {'max': '1536px'},
