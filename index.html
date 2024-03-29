@@ -6,6 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="./src/css/tailwind.css">
     <link rel="stylesheet" href="./src/css/my-class.css">
     <link rel="stylesheet" href="./src/css/style.css">
@@ -32,10 +36,10 @@
                 <div class="flex items-center justify-between    navigation__item-box">
                     <ul class="items-center justify-center gap-6 flex    menu">
                         <li class="py-7    menu__item">
-                            <a class="menu__link" href="#">Home</a>
+                            <a class="menu__link" href="#hero">Home</a>
                         </li>
                         <li class="py-7    menu__item">
-                            <a class="menu__link" href="#">How it`s made?</a>
+                            <a class="menu__link" href="#made">How it`s made?</a>
                         </li>
                         <li class="py-7    menu__item">
                             <a class="menu__link" href="#">Our products</a>
@@ -75,6 +79,29 @@
         </div>
     </header>
     <main class="main">
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="flex flex-col items-start justify-center text-white gap-8    hero__content">
+                    <h1 class="hero__title">
+                        Treat yourself or a loved one to 
+                        our finest ingredients for a moment 
+                        of pure delight!
+                    </h1>
+                    <div class="flex justify-center items-center   hero__btn-wrapper">
+                        <button class="hero__modal-btn">Buy now</button>
+                        <a class="hero__link-btn" href="#">How it’s made</a>
+                    </div>
+                    <a class="flex justify-center items-center  hero__scroll-link" href="#">
+                        scroll down
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <title>scroll-down</title>
+                            <path fill="#fff" d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16c-8.837 0-16 7.163-16 16s7.163 16 16 16z"></path>
+                            <path fill="#fd9222" d="M16.548 17.081c-0.072 0.072-0.157 0.13-0.251 0.169s-0.195 0.059-0.297 0.059-0.203-0.020-0.297-0.059c-0.094-0.039-0.179-0.097-0.251-0.169l-3.536-3.543c-0.072-0.072-0.157-0.13-0.251-0.169s-0.195-0.059-0.297-0.059-0.203 0.020-0.297 0.059c-0.094 0.039-0.179 0.097-0.251 0.169-0.144 0.145-0.225 0.34-0.225 0.544s0.081 0.4 0.225 0.544l3.543 3.543c0.434 0.434 1.023 0.677 1.636 0.677s1.202-0.244 1.637-0.677l3.543-3.543c0.143-0.144 0.223-0.338 0.224-0.54 0.001-0.102-0.019-0.202-0.057-0.296s-0.095-0.18-0.167-0.252c-0.072-0.072-0.157-0.13-0.251-0.169s-0.195-0.059-0.297-0.059-0.203 0.020-0.297 0.059c-0.094 0.039-0.179 0.097-0.251 0.169l-3.535 3.543z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
         <section class="bg-castom-black-benefits    benefits">
             <div class="py-50px text-white    container benefits__content">
                 <ul class="flex justify-center items-start gap-70px    advantages-list">
@@ -146,7 +173,6 @@
                             </p>
                         </div>
                     </div>
-
                     <div class="text-left    product-description-card">
                         <div class="flex flex-col items-start justify-center gap-9 p-7    front">
                             <img class="front__image" src="./src/image/product-description/image-two.png" alt="milk">
@@ -163,7 +189,6 @@
                             </p>
                         </div>
                     </div>
-
                     <div class="text-left    product-description-card">
                         <div class="flex flex-col items-start justify-center gap-9 p-7    front">
                             <img class="front__image" src="./src/image/product-description/image-thre.png" alt="nuts">
@@ -180,7 +205,6 @@
                             </p>
                         </div>
                     </div>
-
                     <div class="text-left    product-description-card">
                         <div class="flex flex-col items-start justify-centerga gap-9 p-7   front">
                             <img class="front__image" src="./src/image/product-description/image-four.png" alt="semi - sweet chocolate">
@@ -200,6 +224,43 @@
                 </div>
             </div>
         </section>
+        <section class="mb-32    made" id="made">
+            <div class="flex flex-col items-center justify-center gap-50px    container">
+                <h2 class="made__title">
+                    HOW IT`S <span class="made__title made__title--yelow">MADE?</span>
+                </h2>
+                <div class="flex items-center justify-center    made__content">
+                    <video class="made__video" controls poster="./src/video/poster.png">
+                        <source src="./src/video/video.mp4" type="video/mp4">
+                        <source src="./src/video/video.webm" type="video/webm">
+                    </video>
+                    <ul class="flex flex-col items-start justify-center gap-6 p-8     recipe-list">
+                        <h5 class="mb-1     recipe-list__title">Try  our chocolates today and discover the perfect balance of flavor</h5>
+                        <li class="recipe-list__item">
+                            <p class="recipe-list__text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
+                        </li>
+                        <li class="recipe-list__item">
+                            <p class="recipe-list__text">At the same time, prepare a water bath. Melt the butter on it.</p>
+                        </li>
+                        <li class="recipe-list__item">
+                            <p class="recipe-list__text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</p>
+                        </li>
+                        <li class="recipe-list__item">
+                            <p class="recipe-list__text">Heat the mixture over low heat, letting it barely boil.</p>
+                        </li>
+                        <li class="recipe-list__item">
+                            <p class="recipe-list__text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/js/sliper.js"></script>
 </body>
 </html>

@@ -1,0 +1,45 @@
+.hero {
+    margin-bottom: 72px;
+    &__content {
+        background-image: url(../image/hero/bg-image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 381px 0 40px 40px;
+        border-radius: 28px;
+        position: relative;
+    }
+    &__title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: -0.84px;
+        width: 484px;
+    }
+    &__btn-wrapper {
+        gap: 14px;
+    }
+    &__modal-btn, &__link-btn{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 14px 40px;
+        border-radius: 100px;
+        background: #FD9222;
+    }
+    &__link-btn {
+        padding: 13px 39px;
+        border: 1px solid #FFF;
+        background-color: transparent;
+    }
+    &__scroll-link {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        gap: 14px;
+    }
+}
+.container {
+}

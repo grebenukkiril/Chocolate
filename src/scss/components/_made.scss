@@ -1,0 +1,52 @@
+
+.made {
+    &__title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 116.667% */
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+    }
+    &__title--yelow {
+        color: #FD9222;
+    }
+    &__content {
+        gap: 20px;
+    }
+    &__video {
+        width: 600px;
+        height: 400px;
+        border-radius: 15px;
+    }
+    
+}
+.recipe-list {
+    &__title {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    &__item{
+        position: relative;
+        padding-left: 16px;
+        &::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background-color: #4C4C4C;
+            position: absolute;
+            border-radius: 9999px;
+            top: 5px;
+            left: 0;
+        }
+    }
+    &__text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+}
