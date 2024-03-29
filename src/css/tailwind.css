@@ -692,10 +692,6 @@ video {
   padding: 1.75rem;
 }
 
-.p-9 {
-  padding: 2.25rem;
-}
-
 .py-50px {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -704,10 +700,6 @@ video {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
-}
-
-.pr-9 {
-  padding-right: 2.25rem;
 }
 
 .text-left {
