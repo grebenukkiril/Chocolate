@@ -64,6 +64,7 @@
     }
 }
 .front {
+    display: none;
     width: 100%;
     position: absolute;
     top: 0;
@@ -90,6 +91,7 @@
 .back {
     gap: 8px;
     width: 270px;
+    text-overflow: ellipsis;
     &__title {
         font-size: 18px;
         font-style: normal;
@@ -127,6 +129,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: 18px; /* 128.571% */
-        letter-spacing: -0.28px;
+        width: 214px;
+        height: 146px;
+        text-overflow: ellipsis;
     }
 }

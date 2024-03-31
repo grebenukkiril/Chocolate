@@ -1,3 +1,6 @@
+.header {
+  margin-bottom: 8px;
+}
 .navigation__item-box {
   gap: 137px;
 }
@@ -6,6 +9,50 @@
   width: 26px;
   height: 2px;
   background-color: #111111;
+}
+
+.hero {
+  margin-bottom: 72px;
+}
+.hero__content {
+  background-image: url(../image/hero/bg-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 381px 0 40px 40px;
+  border-radius: 28px;
+  position: relative;
+}
+.hero__title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.84px;
+  width: 484px;
+}
+.hero__btn-wrapper {
+  gap: 14px;
+}
+.hero__modal-btn, .hero__link-btn {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 14px 40px;
+  border-radius: 100px;
+  background: #FD9222;
+}
+.hero__link-btn {
+  padding: 13px 39px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+}
+.hero__scroll-link {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  gap: 14px;
 }
 
 .benefits {
@@ -104,6 +151,7 @@
 }
 
 .front {
+  display: none;
   width: 100%;
   position: absolute;
   top: 0;
@@ -131,6 +179,7 @@
 .back {
   gap: 8px;
   width: 270px;
+  text-overflow: ellipsis;
 }
 .back__title {
   font-size: 18px;
@@ -168,7 +217,267 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px; /* 128.571% */
+  width: 214px;
+  height: 146px;
+  text-overflow: ellipsis;
+}
+
+.made__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.made__title--yelow {
+  color: #FD9222;
+}
+.made__content {
+  gap: 20px;
+}
+.made__video {
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.recipe-list__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.recipe-list__item {
+  position: relative;
+  padding-left: 16px;
+}
+.recipe-list__item::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #4C4C4C;
+  position: absolute;
+  border-radius: 9999px;
+  top: 5px;
+  left: 0;
+}
+.recipe-list__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
   letter-spacing: -0.28px;
+}
+
+.products__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.products__title--yelow {
+  color: #FD9222;
+}
+.products-list__item {
+  gap: 2px;
+}
+.products-list__image {
+  margin-bottom: 6px;
+}
+.products-list__name {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+}
+.products-list__class {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.24px;
+}
+.products-list__value {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sellers__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.sellers__title--yelow {
+  color: #FD9222;
+}
+.sellers__image-wrapper {
+  gap: 15px;
+}
+.sellers__text-wrapper {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sellers__text {
+  width: 407px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+.sellers__btn {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 14px 40px;
+  gap: 14px;
+  background-color: #FD9222;
+  border-radius: 100px;
+}
+
+.reviews__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  margin-bottom: 59px;
+}
+.reviews__title--yelow {
+  color: #FD9222;
+}
+.reviews__btn {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 13px 39px;
+  border-radius: 100px;
+  border: 1px solid #FD9222;
+}
+
+.reviews-clients {
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #FFF;
+  box-shadow: 0px 9.049px 26.572px 0px rgba(215, 228, 249, 0.25);
+  padding: 56px 24px 26px 24px;
+  position: relative;
+}
+.reviews-clients__image {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  transform: translateX(-50%);
+}
+.reviews-clients__text {
+  width: 312px;
+}
+
+.novelty {
+  padding: 72px 0;
+  background-image: url(../image/novelty/bg_novelty.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.novelty__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  width: 378px;
+}
+.novelty__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  width: 467px;
+}
+.novelty__btn {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 14px 40px;
+  gap: 14px;
+  background-color: #FD9222;
+  border-radius: 100px;
+}
+
+.footer {
+  background-color: #1E1823;
+}
+.footer__content {
+  margin-bottom: 58px;
+}
+.footer__title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.56px;
+  width: 300px;
+}
+.footer__title--yelow {
+  color: #FD9222;
+}
+.footer__link-wrapper {
+  gap: 63px;
+}
+
+.contact__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+.contact__link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+
+.footer-sotial__link {
+  fill: #fff;
+}
+.footer-sotial__link:hover .footer-sotial__svg {
+  transform: scale(1.1);
+}
+.footer-sotial__svg {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-menu {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -177,4 +486,9 @@ body {
 
 * {
   font-family: Montserrat;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }

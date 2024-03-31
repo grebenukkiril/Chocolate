@@ -1,11 +1,25 @@
 @import './utils/vars';
 @import './utils/keyframes';
 @import './components/header';
+@import './components/hero';
 @import './components/benefits';
 @import './components/product-description';
+@import './components/made';
+@import './components/products';
+@import './components/sellers';
+@import './components/reviews';
+@import './components/novelty';
+@import './components/footer';
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #FAFAFA;
 }
 *{
     font-family: Montserrat;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
 }

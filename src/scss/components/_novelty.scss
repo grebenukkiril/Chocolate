@@ -1,0 +1,35 @@
+.novelty {
+    padding: 72px 0;
+    background-image: url(../image/novelty/bg_novelty.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__content {}
+    &__title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+        width: 378px;
+    }
+    &__text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+        width: 467px;
+    }
+    &__btn {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 14px 40px;
+        gap: 14px;
+        background-color: #FD9222;
+        border-radius: 100px;
+    }
+}
