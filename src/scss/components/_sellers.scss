@@ -1,0 +1,45 @@
+.sellers {
+    &__content {
+
+    }
+    &__title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+    &__title--yelow {
+        color: #FD9222;
+    }
+    &__image-wrapper {
+        gap: 15px;
+    }
+    &__image {}
+    &__text-wrapper {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    &__text {
+        width: 407px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+    &__btn {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 14px 40px;
+        gap: 14px;
+        background-color: #FD9222;
+        border-radius: 100px;
+    }
+}

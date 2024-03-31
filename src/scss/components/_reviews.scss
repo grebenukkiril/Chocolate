@@ -1,0 +1,44 @@
+.reviews {
+    &__content {}
+    &__title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+        margin-bottom: 59px;
+    }
+    &__title--yelow {
+        color: #FD9222;
+    }
+    &__clients-wrapper {}
+    &__svg {}
+    &__btn {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 13px 39px;
+        border-radius: 100px;
+        border: 1px solid #FD9222;
+    }
+}
+.reviews-clients {
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    box-shadow: 0px 9.049px 26.572px 0px rgba(215, 228, 249, 0.25);
+    padding: 56px 24px 26px 24px;
+    position: relative;
+    &__image {
+        position: absolute;
+        left: 50%;
+        top: -40px;
+        transform: translateX(-50%);
+    }
+    &__name {}
+    &__text {
+        width: 312px;
+    }
+}
