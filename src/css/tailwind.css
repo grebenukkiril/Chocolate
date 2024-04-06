@@ -558,15 +558,13 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 32px;
-  padding-left: 32px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-    padding-right: 20px;
-    padding-left: 20px;
   }
 }
 
@@ -763,4 +761,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (max-width: 640px) {
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }

@@ -2,7 +2,7 @@
     background-color: #1E1823;
     &__inner {}
     &__content {
-        margin-bottom: 58px;
+        margin-bottom: 62px;
     }
     &__title {
         font-size: 28px;
@@ -54,4 +54,35 @@
     border-top: 1px solid rgba(255, 255, 255, 0.10);
     &__item {}
     &__link {}
+}
+@media (max-width:991px){
+    .footer{
+        &__content{
+            margin-bottom: 54px;
+        }
+    }
+}
+@media (max-width: 767px){
+    .footer{
+        padding: 32px 0;
+        &__content{
+            flex-direction: column;
+            gap: 32px;
+        }
+        &__link-wrapper{
+            justify-content: space-between;
+            gap: 113px;
+        }
+    }
+    .footer-menu{
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-sotial{
+        gap: 15px;
+        &__svg{
+            width: 22px;
+            height: 22px;
+        }
+    }
 }

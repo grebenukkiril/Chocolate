@@ -3,8 +3,11 @@
     &__content {}
 }
 .advantages-list {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    gap: 70px;
     &__item {
-        width: 326px;
+        height: 244px;
         position: relative;
         &::before{
             content: '';
@@ -19,7 +22,9 @@
             display: none;
         }
     }
-    &__svg-box {}
+    &__svg-box {
+        margin-bottom: 4px;
+    }
     &__svg {}
     &__subtitle {
         color: #FFF;
@@ -36,5 +41,26 @@
         line-height: normal;
         letter-spacing: -0.28px;
         width: 308px;
+    }
+}
+@media (max-width: 1199px){
+    .advantages-list{
+        grid-template-rows: repeat(2, 244px);
+        grid-template-columns: repeat(2, 308px);
+        gap: 30px;
+        width: 648px;
+        &__item{
+            &::before{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .advantages-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
