@@ -1,6 +1,6 @@
-const burgerMenuBtn = document.getElementById('burgerMenuBtn');
-const header = document.getElementById('header');
-const burgerMenuClose = document.getElementById('burgerMenuClose');
+let burgerMenuBtn = document.getElementById('burgerMenuBtn');
+let header = document.getElementById('header');
+let burgerMenuClose = document.getElementById('burgerMenuClose');
 
 burgerMenuBtn.addEventListener("click", () => {
     header.classList.add('burger-active');
