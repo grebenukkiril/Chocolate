@@ -31,6 +31,7 @@
     box-shadow: 0px 9.049px 26.572px 0px rgba(215, 228, 249, 0.25);
     padding: 56px 24px 26px 24px;
     position: relative;
+    height: 200px;
     &__image {
         position: absolute;
         left: 50%;
@@ -40,5 +41,35 @@
     &__name {}
     &__text {
         width: 312px;
+    }
+}
+@media (max-width: 1200px) {
+    .reviews{
+        &__clients-wrapper {
+            gap: 25px;
+        }
+    }
+    .reviews-clients{
+        padding: 56px 16px 26px 16px;
+        &:last-child{
+            display: none;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .reviews{
+        margin-bottom: 72px;
+        &__title{
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.6px;
+            margin-bottom: 42px;
+        }
+    }
+    .reviews-clients{
+        padding: 56px 18px 42px 18px;
+        &:nth-child(2){
+            display: none;
+        }
     }
 }

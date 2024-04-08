@@ -19,7 +19,7 @@ body{
 *{
     font-family: Montserrat;
 }
-.swiper {
-    width: 600px;
-    height: 300px;
+header.burger-menu-active .navigation{
+    opacity: 1;
+    left: 0;
 }
